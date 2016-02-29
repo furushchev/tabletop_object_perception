@@ -40,6 +40,8 @@
 
 #include <household_objects_database_msgs/GetModelMesh.h>
 
+#include <shape_msgs/Mesh.h>
+
 visualization_msgs::Marker getFitMarker(const shape_msgs::Mesh &mesh)
 {
   visualization_msgs::Marker marker;
